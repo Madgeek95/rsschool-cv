@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+
+}
+html {
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0 32px 0;
+}
+
+li, a {
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  
+  gap: 12px;
+  /* width: 970px; */
+  font-size: 14px;
+  
+}
+
+.navlinks a:hover {
+  text-decoration: underline;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
