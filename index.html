@@ -94,9 +94,9 @@
   <h2>CODE</h2>
   <pre>
     <code>
-      use std::collections::HashMap;
+    use std::collections::HashMap;
       impl Solution {
-        pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
+        pub fn two_sum(nums: Vec, target: i32) -> Vec {
             let mut map = HashMap::new();
             for (i, &num) in nums.iter().enumerate() {
                 let complement = target - num;
